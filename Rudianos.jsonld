@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Rudianos",
+    "motivations": "I value the initial ethos of the blockchain space. I want to be part of creating a fair and decentralized system that anyone can use to create value for themselves and others. My goal is to make decisions that help keep Cardano decentralized and secure while also increasing adoption and ease of use.",
+    "objectives": "My goal is to be a representative that will always put the integrity of the Cardano blockchain as a primary focus. A decentralized, stable, secure environment which allows users to feel confident will always be my north star in all votes, with profitability and business an important but secondary concern. \nHello and thank you for taking the time to be here. I have been an enthusiastic supporter of the Cardano ecosystem since 2017. The vision of this ecosystem is second to none and it has kept me here all these years. \nI intend on letting my voting record speak for itself over time as I beleive this to be the true strenght of our liquid democracy system. Use your vote based on what you can verify not political promisses.",
+    "paymentAddress": "addr1q8nuak5gz6dpnv7a4veye9nzzmu4m4tg93upr8tyxvn6270zrkre6cp5mr0hpd0mq5eg2ewtwt5uezvwm0kg6gtg6kjq2schs0",
+    "qualifications": "In the age of governance here are the skills that I have which could be of use. \n- I have been involved for many years in governance and negotiation. \n- I was president of a large union group (members based organization) for 6 years working in the federal government sector. \n- I have many years of conflict mediation experience, legal adjudication experience and experience navigating bureaucratic systems. \nI understand bureaucracy and importantly how to avoid expanding it as much as possible. \nAlso important is what I am not. \n- I am not an SPO and have no conflicts of interests in that regard. \n- I am not building or involved in building any current projects and have no conflicts of interests in that regard. \n- I am not a computer programmer or engineer although I have a good understanding of blockchain and Cardano technology.\n- I am not an investor but an end user and this will help guide my decisions.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X profile",
+        "uri": "https://x.com/RudianosDrep"
+      }
+    ]
+  }
+}
