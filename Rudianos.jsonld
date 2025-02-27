@@ -65,9 +65,9 @@
         "uri": "https://rudianosdrep.my.canva.site/"
       },
       {
-        "@type": "Link",
-        "label": "X profile",
-        "uri": "https://x.com/RudianosDrep"
+        "@type": "Identity",
+        "label": "Label",
+        "uri": "https://x.com/Cardano_DRep"
       }
     ]
   }
