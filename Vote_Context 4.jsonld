@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "I have decided to vote in support of this proposal. I believe that the spending limit set here is higher than what is required, but I am cognizant that this is only an upper limit and that all funding needs to be approved by the community regardless. There are also too many important priorities that require funding to not approve a limit at all or to wait for another NCL proposal. Although I am not in favor of choosing an NCL for 2026 at this time, this is not a decisive factor for me. If the community finds that the 2026 NCL listed here is not appropriate, then a new NCL can be proposed and would replace it. What we need to ensure does not happen is not approving an NCL in a timely manner, which would delay and create uncertainty around passing a budget. With this in mind and the fact that this proposal is not too far off from where I think we need to be on an upper spending limit, I choose to support it."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
